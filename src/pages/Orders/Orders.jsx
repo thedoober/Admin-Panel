@@ -4,7 +4,7 @@ import { toast } from "react-toastify";
 import { useState } from "react";
 import { useEffect } from "react";
 import axios from "axios";
-import { assets } from "../../../../Frontend/src/assets/assets";
+import { assets } from "../../assets1/assets"
 const Orders = ({ url }) => {
   const [orders, setOrders] = useState([]);
   const fetchAllOrders = async () => {
